@@ -1,0 +1,14 @@
+Unsynchronized run 1: Seats sold: 73
+Unsynchronized run 2: Seats sold: 92
+Unsynchronized run 3: Seats sold: 90
+Unsynchronized run 4: Seats sold: 78
+Unsynchronized run 5: Seats sold: 93
+Unsynchronized run 6: Seats sold: 100
+Unsynchronized run 7: Seats sold: 69
+Unsynchronized run 8: Seats sold: 76
+Unsynchronized run 9: Seats sold: 86
+Unsynchronized run 10: Seats sold: 92
+Synchronized method: Seats sold: 10
+Synchronized block: Seats sold: 10
+10,000 synchronized-method attempts ns: 37616900
+10,000 synchronized-block attempts ns: 17589500
