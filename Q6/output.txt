@@ -1,0 +1,47 @@
+Opposite lock order deadlock detected: true
+Ordered transfer completed; total balance: 200
+Buffer size after take: 0
+Buffer size after put: 1
+Buffer size after put: 1
+Buffer size after take: 0
+Buffer size after put: 1
+Buffer size after take: 0
+Buffer size after put: 1
+Buffer size after take: 0
+Buffer size after put: 1
+Buffer size after take: 0
+Buffer size after put: 1
+Buffer size after take: 0
+Buffer size after put: 1
+Buffer size after take: 0
+Buffer size after put: 1
+Buffer size after take: 0
+Buffer size after put: 1
+Buffer size after take: 0
+Buffer size after put: 1
+Buffer size after take: 0
+Buffer size after take: 0
+Buffer size after put: 1
+Buffer size after put: 1
+Buffer size after take: 0
+Buffer size after put: 1
+Buffer size after put: 1
+Buffer size after take: 0
+Buffer size after put: 2
+Buffer size after put: 2
+Buffer size after put: 3
+Buffer size after put: 4
+Buffer size after take: 1
+Buffer size after take: 4
+Buffer size after put: 5
+Buffer size after take: 3
+Buffer size after take: 3
+Buffer size after put: 4
+Buffer size after take: 2
+Buffer size after take: 1
+Buffer size after take: 0
+Sum of tokens collected: 210 (expected 210)
+Bounded-buffer run elapsed ns: 8779900
+if-trial 1: correct, received=20, sum=210
+if-trial 2: correct, received=20, sum=210
+if-trial 3: correct, received=20, sum=210
