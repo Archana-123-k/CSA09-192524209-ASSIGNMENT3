@@ -1,0 +1,17 @@
+Manual finally reached for inputs\store-a.csv
+Manual finally reached for inputs\store-b.csv
+Manual report elapsed ns: 26338200
+Try-with-resources report elapsed ns: 812400
+Manual report: rows=4, total=250
+Try-with-resources report: rows=4, total=250
+Reports equal: true
+Failed file: inputs\store-bad.csv (NumberFormatException)
+Manual finally reached for inputs\store-bad.csv
+Open readers after manual failure: 1
+Failed file: inputs\store-bad.csv (NumberFormatException)
+Open readers after try-with-resources failure: 0
+Opened first then second
+Closed second
+Closed first
+Primary exception: read failed
+Suppressed exception: close failed
