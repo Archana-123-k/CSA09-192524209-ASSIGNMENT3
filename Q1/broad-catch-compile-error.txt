@@ -1,0 +1,4 @@
+C:\Users\DELL\AppData\Local\Temp\BroadCatch.java:1: error: exception IOException has already been caught
+import java.io.IOException; class BroadCatch { void f() { try { throw new IOException(); } catch (Exception e) { } catch (IOException e) { } } }
+                                                                                                                   ^
+1 error

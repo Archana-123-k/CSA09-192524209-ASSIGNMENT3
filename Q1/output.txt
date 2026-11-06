@@ -1,0 +1,31 @@
+Q1 execution results
+
+--- approved ---
+Account number: Withdrawal amount: Withdrawal approved. Remaining balance: 750
+Withdrawal validation ns: 5300
+1,000 invalid-input paths ns: exceptions=14282700, status checks=65100, sink=8000
+Finally: transaction cleanup completed
+
+--- letters-account ---
+Account number: Invalid numeric input: NumberFormatException
+Finally: transaction cleanup completed
+
+--- letters-amount ---
+Account number: Withdrawal amount: Invalid numeric input: InputMismatchException
+Finally: transaction cleanup completed
+
+--- negative ---
+Account number: Withdrawal amount: Invalid amount: amount must not be negative
+Finally: transaction cleanup completed
+
+--- over-balance ---
+Account number: Withdrawal amount: Declined: requested 1200, available 1000
+Finally: transaction cleanup completed
+
+--- missing card reader ---
+Card-reader failure: FileNotFoundException
+Finally: reader check completed
+
+--- uncaught exception stack trace ---
+Exception in thread "main" java.lang.IllegalStateException: Demonstration of an uncaught failure
+	at ATM.main(ATM.java:11)
