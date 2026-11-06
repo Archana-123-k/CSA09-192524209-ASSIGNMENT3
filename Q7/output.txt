@@ -1,0 +1,11 @@
+Hand-checked 10-file sample: candidates=10, successes=6, missing=2, corrupt=2, failures=4, elapsed_ms=56.783
+
+--- 10,000-candidate benchmark ---
+10,000-candidate result (first benchmark run): candidates=10000, successes=9800, missing=100, corrupt=100, failures=200, elapsed_ms=2611.410
+Pool | Average ms | Relative bar (lower is better)
+   1 |   1686.663 | ######
+   2 |    710.653 | #############
+   4 |    416.756 | #######################
+   8 |    317.438 | ##############################
+Raw measurements: timings.csv (3 runs per pool size)
+
