@@ -1,0 +1,7 @@
+SubmissionStorageException: Could not store answer02.pdf
+	at Storage.save(ExamPortal.java:93)
+	at ExamService.submit(ExamPortal.java:78)
+	at ExamPortal.main(ExamPortal.java:10)
+Caused by: java.io.IOException: Disk quota exceeded
+	at Storage.save(ExamPortal.java:88)
+	... 2 more
