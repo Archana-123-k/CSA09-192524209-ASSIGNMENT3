@@ -1,0 +1,53 @@
+Direct run executed on: main; worker name remains: direct
+Priority experiment completed (low=1, high=10); priority is a scheduling hint
+Run 1 alive immediately after start: true
+Run 1 station counts: 100, 100, 100, 100
+Run 1 finish order: station-1, station-2, station-3, station-4
+Run 1 total scans: 400
+Run 1 elapsed ns: 24229400
+Run 2 alive immediately after start: true
+Run 2 station counts: 100, 100, 100, 100
+Run 2 finish order: station-2, station-1, station-3, station-4
+Run 2 total scans: 400
+Run 2 elapsed ns: 1146700
+Run 3 alive immediately after start: true
+Run 3 station counts: 100, 100, 100, 100
+Run 3 finish order: station-1, station-2, station-4, station-3
+Run 3 total scans: 400
+Run 3 elapsed ns: 1080900
+Run 4 alive immediately after start: true
+Run 4 station counts: 100, 100, 100, 100
+Run 4 finish order: station-1, station-3, station-2, station-4
+Run 4 total scans: 400
+Run 4 elapsed ns: 3745200
+Run 5 alive immediately after start: true
+Run 5 station counts: 100, 100, 100, 100
+Run 5 finish order: station-2, station-1, station-3, station-4
+Run 5 total scans: 400
+Run 5 elapsed ns: 4193900
+Run 6 alive immediately after start: true
+Run 6 station counts: 100, 100, 100, 100
+Run 6 finish order: station-1, station-2, station-3, station-4
+Run 6 total scans: 400
+Run 6 elapsed ns: 1378500
+Run 7 alive immediately after start: true
+Run 7 station counts: 100, 100, 100, 100
+Run 7 finish order: station-1, station-2, station-3, station-4
+Run 7 total scans: 400
+Run 7 elapsed ns: 1090600
+Run 8 alive immediately after start: true
+Run 8 station counts: 100, 100, 100, 100
+Run 8 finish order: station-1, station-2, station-3, station-4
+Run 8 total scans: 400
+Run 8 elapsed ns: 1070000
+Run 9 alive immediately after start: true
+Run 9 station counts: 100, 100, 100, 100
+Run 9 finish order: station-2, station-1, station-3, station-4
+Run 9 total scans: 400
+Run 9 elapsed ns: 1068600
+Run 10 alive immediately after start: true
+Run 10 station counts: 100, 100, 100, 100
+Run 10 finish order: station-1, station-2, station-3, station-4
+Run 10 total scans: 400
+Run 10 elapsed ns: 994300
+Daemon flag: true; main ends without joining it
